@@ -12,3 +12,4 @@ RUN DEBIAN_FRONTEND=noninteractive apt-get install --yes  \
 WORKDIR /opt
 #RUN curl -s https://get.nextflow.io | bash
 RUN wget -qO- https://get.nextflow.io | bash
+RUN cp /opt/nextflow /usr/local/bin
